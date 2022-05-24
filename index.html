@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Food Diary</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Input data -->
+
+    <form class="input-form">
+      <p id="formTimeDisplay"></p>
+      <input
+        type="text"
+        name="foods"
+        placeholder="Food item"
+        autocomplete="off"
+      />
+      <input type="number" name="calories" placeholder="Calorie count" />
+      <input type="submit" value="Submit" />
+      <div class="feedback"></div>
+      <div class="feedback-success"></div>
+    </form>
+
+    <!-- List data -->
+    <ul class="listing"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
